@@ -39,6 +39,6 @@ pkgs_dirs:
         - pip install <package.name>
 
 4. Set up Jupyter Notebooks (one-time)
-   - enable Jupyter App to recognize your conda environment with the command:  python -m ipykernel install --user --name=geospatial-env
+   - enable Jupyter App to recognize your conda environment with the command:  python -m ipykernel install --user --name geospatial-env
 
       
