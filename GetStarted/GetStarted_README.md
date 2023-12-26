@@ -31,10 +31,14 @@ pkgs_dirs:
     - navigate to directory where geospatial-env.yml is stored
     - create the environment with all the packages you'll need using the command: conda env create -f geospatial-env.yml
 
-3. Load your environment
+3. Activate your environment
     - load miniconda module: ml miniconda
     - activate your environment: source activate geospatial-env
     - NOTE: you can manually add packages with the command options:
         - conda install <package.name>
         - pip install <package.name>
+
+4. Set up Jupyter Notebooks (one-time)
+   - enable Jupyter App to recognize your conda environment with the command:  python -m ipykernel install --user --name=geospatial-env
+
       
