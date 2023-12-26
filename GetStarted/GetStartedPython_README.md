@@ -29,7 +29,7 @@ pkgs_dirs:
 
 2. Create conda environment (skip to step 3 if you already created your environment)
     - load miniconda module: `ml miniconda`
-    - Upload the [geospatial-env yaml file](link to yaml file) to an easily accessible directory
+    - Upload the [geospatial-env yaml file](blob:https://github.com/2439a0b4-8fb7-4b21-9bd3-004463453bc1) to an easily accessible directory
     - navigate to directory where geospatial-env.yml is stored: `cd /path/to/dir`
     - create the environment with the key the packages you'll need using the command: `conda env create -f geospatial-env.yml`
 
