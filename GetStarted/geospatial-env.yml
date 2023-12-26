@@ -1,0 +1,42 @@
+## GEOSPATIAL WORKBOOK ENVIRONMENT
+
+name: geospatial-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.9
+
+  # data processing
+  - numpy
+  - pandas
+  - scipy
+  - multiprocessing
+  - dask
+
+  # running Jupyter Notebooks
+  - nb_conda_kernels
+  - ipykernel
+  - jupyterlab
+
+  # modeling  NOTE: decide on tensorflow or pytorch framework for deep learning
+  - scikit-learn
+  - keras
+
+  # visualization
+  - matplotlib
+  - seaborn
+
+  # image processing
+  - scikit-image
+  - imageio  # maybe deprecate this in favor of Pillow
+  - Pillow
+
+  # geospatial
+  - geopandas
+  - plotnine
+  - rioxarray
+  - rasterio
+  - rasterstats
